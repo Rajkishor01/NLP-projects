@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Result</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 50px; }
+        .result { font-size: 20px; margin-top: 20px; }
+        a { text-decoration: none; color: blue; }
+    </style>
+</head>
+<body>
+    <h1>Sentiment Analysis Result</h1>
+    <p><strong>Comment:</strong> {{ comment }}</p>
+    <p class="result"><strong>Sentiment:</strong> {{ sentiment }}</p>
+    <p><strong>Confidence:</strong> {{ confidence }}%</p>
+    <br>
+    <a href="/">Analyze another comment</a>
+</body>
+</html>
