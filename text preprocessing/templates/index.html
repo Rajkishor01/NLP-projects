@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Preprocessing</title>
+    <style>
+        body {
+            background-color: #000; /* Black background */
+            color: white; /* White text for contrast */
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h2 {
+            color: #1E90FF; /* Blue color for headings */
+        }
+        textarea {
+            width: 60%;
+            height: 150px;
+            padding: 10px;
+            font-size: 16px;
+            border: 2px solid #1E90FF; /* Blue border */
+            background-color: #222; /* Darker background for contrast */
+            color: white;
+        }
+        button {
+            background-color: #1E90FF; /* Blue button */
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #007BFF; /* Slightly lighter blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <h2>Enter a Paragraph</h2>
+    <form action="/process" method="post">
+        <textarea name="paragraph" placeholder="Enter text here..."></textarea><br>
+        <button type="submit">Process</button>
+    </form>
+</body>
+</html>
